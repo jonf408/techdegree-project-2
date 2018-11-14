@@ -10,6 +10,8 @@ a:link {
 }
 
 li {
+  text-align: center;
+  border: solid black 4px;
   list-style-type: none;
   list-style-position: outside;
 }
