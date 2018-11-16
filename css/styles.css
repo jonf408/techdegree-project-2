@@ -106,8 +106,8 @@ li {
     vertical-align: middle;
   }
 
-  .intro p {
-    text-align: right;
+   p .intro {
+    text-align: left;
     font-size: 40px;
     position: absolute;
     vertical-align: middle;
