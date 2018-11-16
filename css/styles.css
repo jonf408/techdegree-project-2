@@ -83,6 +83,11 @@ li {
 /*  Media Queries------*/
 
 @media only screen and (min-width: 768px) {
+
+  .container {
+    overflow: auto;
+  }
+
   .main-nav {
     float: none;
     width: 100%;
@@ -95,10 +100,20 @@ li {
   .profile-image {
     float: right;
     width: 25%;
+    margin-left: 30px;
+    margin-right: 7%;
+    position: relative;
+    vertical-align: middle;
   }
 
   .intro p {
-    text-align: left;
+    text-align: right;
+    font-size: 40px;
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 50%;
+    border: black solid 4px;
+  }
 
   .group:after {
     content: "";
