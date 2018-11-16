@@ -23,6 +23,7 @@ li {
   list-style-type: none;
   list-style-position: outside;
   padding-top: 5px;
+  padding-bottom: 5px;
   margin-top: 10px;
   padding-left: 0;
 }
@@ -76,4 +77,35 @@ li {
 
 .nail {
   float: right;
+}
+
+
+/*  Media Queries------*/
+
+@media (min-width: 768px) {
+  .main-nav {
+    float: none;
+    width: 100%;
+  }
+
+  .main-nav li {
+    display: inline;
+  }
+
+  .profile-image {
+    float: right;
+  }
+
+  .intro {
+    float: left;
+    text-align: left;
+  }
+}
+
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
