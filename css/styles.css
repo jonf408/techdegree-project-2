@@ -86,7 +86,6 @@ li {
   .main-nav {
     float: none;
     width: 100%;
-    border: solid red 4px;
   }
 
   .main-nav li {
@@ -95,11 +94,11 @@ li {
 
   .profile-image {
     float: right;
+    width: 25%;
   }
 
   .intro p {
-    float: left;
-  }
+    text-align: left;
 
   .group:after {
     content: "";
