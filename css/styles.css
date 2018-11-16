@@ -14,12 +14,17 @@ a:link {
   text-decoration: none;
 }
 
+ul {
+  padding-left: 0;
+}
+
 li {
   background-color: #fff;
   list-style-type: none;
   list-style-position: outside;
   padding-top: 5px;
   margin-top: 10px;
+  padding-left: 0;
 }
 
 
