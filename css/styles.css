@@ -84,10 +84,6 @@ li {
 
 @media only screen and (min-width: 768px) {
 
-  .container {
-    overflow: auto;
-  }
-
   .main-nav {
     float: none;
     width: 100%;
@@ -95,12 +91,14 @@ li {
 
   .main-nav li {
     display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .profile-image {
+    width: 30%;
+    height: auto;
     float: right;
-    width: 25%;
-    margin-left: 30px;
     margin-right: 7%;
     position: relative;
     vertical-align: middle;
@@ -109,7 +107,7 @@ li {
    .primary-content {
     float: left;
     text-align: left;
-    font-size: 22.5px;
+    font-size: 2rem;
     vertical-align: middle;
     margin-top: 25px;
     padding-top: 25px;
