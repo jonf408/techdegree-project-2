@@ -7,7 +7,7 @@ body {
 
 footer {
   padding-top: 30px;
-  background-color: #A9A9A9;
+  background-color: #C0C0C0;
 }
 
 a:link {
@@ -23,10 +23,12 @@ li {
 }
 
 
+
 /*  Class Selectors-----*/
 
 .secondary-content {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .profile-image {
