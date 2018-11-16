@@ -106,13 +106,13 @@ li {
     vertical-align: middle;
   }
 
-   p .intro {
+   .primary-content {
+    float: left;
     text-align: left;
-    font-size: 40px;
-    position: absolute;
+    font-size: 22.5px;
     vertical-align: middle;
-    margin-top: 50%;
-    border: black solid 4px;
+    margin-top: 25px;
+    padding-top: 25px;
   }
 
   .group:after {
