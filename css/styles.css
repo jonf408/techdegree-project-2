@@ -82,10 +82,11 @@ li {
 
 /*  Media Queries------*/
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .main-nav {
     float: none;
     width: 100%;
+    border: solid red 4px;
   }
 
   .main-nav li {
@@ -96,10 +97,16 @@ li {
     float: right;
   }
 
-  .intro {
+  .intro p {
     float: left;
-    text-align: left;
   }
+
+  .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 }
 
 
