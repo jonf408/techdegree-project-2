@@ -113,6 +113,21 @@ li {
     padding-top: 25px;
   }
 
+  .marketing,
+  .travel,
+  .photo, {
+    float: left;
+    width: 50%;
+    display: inline-block;
+  }
+
+  .search,
+  .map,
+  .calculator {
+    float: right;
+    width: 50%;
+  }
+
   .group:after {
     content: "";
     display: table;
