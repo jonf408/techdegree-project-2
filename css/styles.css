@@ -115,7 +115,7 @@ li {
 
   .marketing,
   .travel,
-  .photo, {
+  .photo {
     float: left;
     width: 50%;
   }
