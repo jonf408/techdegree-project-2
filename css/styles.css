@@ -84,6 +84,14 @@ li {
 
 @media only screen and (min-width: 768px) {
 
+  h2 {
+    float: left;
+  }
+
+  p {
+    float: left;
+  }
+
   .main-nav {
     float: none;
     width: 100%;
@@ -113,11 +121,22 @@ li {
     padding-top: 25px;
   }
 
+  .group1 {
+    float: left;
+    width: 50%;
+  }
+
+  .group2 {
+    float: right;
+    width: 50%;
+  }
+
   .marketing,
   .travel,
   .photo {
     float: left;
     width: 50%;
+    border: solid 1px red;
   }
 
   .search,
@@ -125,9 +144,10 @@ li {
   .calculator {
     float: right;
     width: 50%;
+    border: solid 1px red;
   }
 
-  .group:after {
+  .group::after {
     content: "";
     display: table;
     clear: both;
@@ -137,7 +157,7 @@ li {
 
 
 
-.group:after {
+.group::after {
   content: "";
   display: table;
   clear: both;
