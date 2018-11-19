@@ -5,10 +5,6 @@ body {
   background-color: #E0E0E0;
 }
 
-footer {
-  padding-top: 30px;
-  background-color: #C0C0C0;
-}
 
 a:link {
   text-decoration: none;
@@ -90,10 +86,12 @@ li {
 @media only screen and (min-width: 768px) {
 
   img {
-    width: 50%;
+    width: 90%;
   }
 
-
+  footer {
+    padding-top: 30px;
+  }
   .main-nav {
     float: none;
     width: 100%;
