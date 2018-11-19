@@ -89,6 +89,10 @@ li {
 
 @media only screen and (min-width: 768px) {
 
+  img {
+    width: 50%;
+  }
+
 
   .main-nav {
     float: none;
@@ -107,7 +111,6 @@ li {
     float: right;
     margin-right: 7%;
     position: relative;
-    vertical-align: middle;
   }
 
    .primary-content {
