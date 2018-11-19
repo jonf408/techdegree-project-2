@@ -118,15 +118,8 @@ li {
     padding-top: 25px;
   }
 
-
-  .group1 {
-    float: left;
-    width: 50%;
-  }
-
-  .group2 {
-    float: right;
-    width: 50%;
+  .intro {
+    vertical-align: middle;
   }
 
   .marketing,
