@@ -172,5 +172,14 @@ img {
     margin-right: 10px;
     }
 
+    .marketing,
+    .travel,
+    .photo,
+    .search,
+    .map,
+    .calculator {
+      width: 33%;
+    }
+
 
 }
