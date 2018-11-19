@@ -71,6 +71,10 @@ li {
   width: 100%;
 }
 
+.calculator {
+  width: 100%;
+}
+
 .toe {
   float: left;
 }
@@ -80,17 +84,11 @@ li {
 }
 
 
+
 /*  Media Queries------*/
 
 @media only screen and (min-width: 768px) {
 
-  h2 {
-    float: left;
-  }
-
-  p {
-    float: left;
-  }
 
   .main-nav {
     float: none;
