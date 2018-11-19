@@ -14,10 +14,17 @@ body {
   background-color: #E0E0E0;
 }
 
+p {
+  font-family: 'Varela Round', sans-serif;
+}
 
 a:link {
   text-decoration: none;
 }
+
+a:hover {
+    color: #FF00FF;
+  }
 
 ul {
   padding-left: 0;
@@ -41,6 +48,7 @@ img {
   background-color: #636F57;
   padding: 25px 25px;
   margin: 25px 25px;
+  color: white;
 }
 
 
@@ -55,6 +63,10 @@ img {
   margin-bottom: 50px;
 }
 
+.tertiary-content {
+    background-color: #CFDBC5;
+}
+
 .profile-image {
   width: 100%;
   padding-top: 25px;
@@ -63,6 +75,11 @@ img {
 
 .portfolio-image {
   width: 100%;
+}
+
+.intro {
+  color: purple;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 .marketing {
