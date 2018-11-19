@@ -1,4 +1,13 @@
 /*  Type Selectors -----*/
+
+* {
+  .group::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 body {
   text-align: center;
   color: black;
@@ -154,7 +163,14 @@ img {
     float: left;
   }
 
-  .main.nav {
+  .main-nav li {
     float: right;
-  }
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    margin-right: 10px;
+    }
+
+
 }
