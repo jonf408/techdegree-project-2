@@ -34,7 +34,11 @@ li {
 }
 
 img {
-  width: 90%
+  width: 90%;
+}
+
+.profile-image {
+  max-width: 50%;
 }
 
 .additional-skills {
@@ -47,7 +51,7 @@ img {
 
 /*  Class Selectors-----*/
 
-.main-nav li {
+nav li {
   border-radius: 10px;
   }
 
@@ -73,6 +77,8 @@ img {
 .intro {
   color: purple;
   font-family: 'Allerta Stencil', sans-serif;
+  max-width: 85%;
+  margin: auto;
 }
 
 .marketing {
@@ -120,12 +126,12 @@ img {
   footer {
     padding-top: 30px;
   }
-  .main-nav {
+  nav {
     float: none;
     width: 100%;
   }
 
-  .main-nav li {
+  nav li {
     display: inline;
     padding-left: 25px;
     padding-right: 25px;
@@ -141,7 +147,7 @@ img {
 
    .primary-content {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.2rem;
     vertical-align: middle;
     margin-top: 25px;
     padding-top: 25px;
@@ -174,12 +180,24 @@ img {
 }
 
 @media only screen and (min-width: 1024px) {
+
+  .wrap {
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+  }
+
   .name {
     float: left;
   }
 
-  .main-nav li {
+  nav {
     float: right;
+    width: auto;
+  }
+
+  nav li {
+    float: left;
     display: inline;
     padding-left: 25px;
     padding-right: 25px;
